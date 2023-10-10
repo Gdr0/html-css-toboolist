@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: lightgray;
+  /* background-color: lightgray; */
 }
 :root {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -33,10 +33,10 @@
   margin-top: 50px;
   line-height: 35px;
   border-radius: 5px;
+  margin-bottom: 5px;
 }
 
 .task {
-  margin-left: 40px;
   background-color: pink;
   display: inline-block;
   height: 35px;
@@ -55,4 +55,86 @@
   border-radius: 5px;
   text-align: center;
   border: 1px solid grey;
+}
+
+.lista-task {
+  width: 80%;
+  background-color: white;
+  margin: auto;
+  border-radius: 5px;
+  height: 100%;
+  padding-bottom: 20px;
+}
+
+.new-task {
+  background-color: white;
+  margin-top: 30px;
+  display: inline-block;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.box-impegno {
+  background-color: white;
+  margin: auto;
+  line-height: 25px;
+  border-radius: 10px;
+  padding-left: 20px;
+  width: 100%;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.editorial {
+  margin-left: 5px;
+  background-color: cornflowerblue;
+  display: inline-block;
+  height: 25px;
+  width: 70px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 12px;
+}
+.q1_goals {
+  margin-left: 5px;
+  background-color: blueviolet;
+  display: inline-block;
+  height: 25px;
+  width: 70px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.recruiting {
+  margin-left: 5px;
+  background-color: lightgreen;
+  display: inline-block;
+  height: 25px;
+  width: 70px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.mobile {
+  margin-left: 5px;
+  background-color: orange;
+  display: inline-block;
+  height: 25px;
+  width: 70px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.website {
+  margin-left: 5px;
+  background-color: fuchsia;
+  display: inline-block;
+  height: 25px;
+  width: 70px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 12px;
 }
